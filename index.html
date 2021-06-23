@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta
+      name="description"
+      content="Cuadritos geek para tus paredes, ¡ideales para regalar o decorar tu propia casa!"
+    />
+    <meta
+      name="keywords"
+      content="cuadritos, diseño de interiores, geek, nerd, chic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/icon.png" />
+    <title>Geekamole Store</title>
+  </head>
+  <body>
+    <header>
+      <span class="logo">
+        <a href="./index.html"
+          ><img
+            src="./images/logo.png"
+            alt="Geekamole"
+            class="animate__animated animate__fadeIn"
+        /></a>
+      </span>
+      <!-- Navbar -->
+      <div>
+        <nav>
+          <ul class="nav" id="menu">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./quienes.html">Quiénes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./faq.html">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contáctanos</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero -->
+    <div>
+      <img class="hero" src="./images/hero.jpg" alt="Triptico Star Wars" />
+    </div>
+    <!-- Carousel -->
+    <div>
+      <section class="carouselContainer">
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/1.png"
+                class="d-block w-100"
+                alt="Cuadrito Boba Fett"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Cuadrito Boba Fett</h5>
+                <p>
+                  Nuestro cazarrecompensas favorito merece un lugar en tu pared.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/2.png"
+                class="d-block w-100"
+                alt="Cuadrito Bad Motherfucker"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Cuadrito Bad Motherfucker</h5>
+                <p>
+                  Sentite como un maloso hijo de perra con este cuadrito de
+                  Samuel Jackson.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/3.png"
+                class="d-block w-100"
+                alt="Cuadrito Playstation"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Cuadrito Playstation</h5>
+                <p>
+                  ¿Te gusta Playstation y no sabés como demostrarlo? He aquí el
+                  cuadrito perfecto para vos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-get="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <!-- Productos -->
+
+    <span class="titulos__faq"><h1>¡Algunos de nuestros productos!</h1></span>
+    <div class="contenedor__productos">
+      <img class="zoom" src="./images/1 deadpool.jpg" alt="" />
+      <img class="zoom" src="./images/1 deadpool.jpg" alt="" />
+      <img class="zoom" src="./images/1 deadpool.jpg" alt="" />
+    </div>
+
+    <!-- Tarjetas -->
+    <div>
+      <section class="contenedor">
+        <div class="tarjeta">
+          <img
+            class="tarjeta__img"
+            src="https://maderasanblas.com.ar/wp-content/uploads/2019/01/mdf-fibrofacil-sb.jpg"
+            alt="Bastidores"
+          />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo">Cuadritos de calidad</h3>
+            <p class="tarjeta__parrafo">¿De qué material son los cuadritos?</p>
+            <ul>
+              <li class="tarjeta__descripcion">
+                Nuestros cuadritos están hechos en fibrofacil de alta calidad,
+                livianos y duraderos. ¡Podés hasta ponerlos en la cocina que no
+                van a ponerse feos!
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="contenedor">
+        <div class="tarjeta">
+          <img
+            class="tarjeta__img"
+            src="https://www.collinsdictionary.com/images/full/paper_111691001.jpg"
+            alt="Papel"
+          />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo">La mejor calidad en papel</h3>
+            <p class="tarjeta__parrafo">¿De qué material es la impresión?</p>
+            <ul>
+              <li class="tarjeta__descripcion">
+                Nosotros usamos papel fotográfico de primera línea para
+                garantizar una buena impresión y con colores vivos sin perder
+                absolutamente ninguno de los detalles.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="contenedor">
+        <div class="tarjeta">
+          <div class="tarjeta__contenido2">
+            <h3 class="tarjeta__titulo">Personalización</h3>
+            <p class="tarjeta__parrafo">¿Por qué elegirnos?</p>
+            <ul>
+              <li class="tarjeta__descripcion">
+                Nuestros clientes nos eligen por la facilidad a la hora de hacer
+                un regalo altamente personalizable. Nuestros diseños pueden
+                adaptarse a tus necesidades, o bien podés sugerirnos el tuyo
+                propio, ¡el cielo es el límite!
+              </li>
+            </ul>
+          </div>
+          <img class="tarjeta__img" src="./images/icon.png" alt="Paltita" />
+        </div>
+      </section>
+      <section class="contenedor">
+        <div class="tarjeta">
+          <div class="tarjeta__contenido2">
+            <h3 class="tarjeta__titulo">Medios de pago</h3>
+            <p class="tarjeta__parrafo">
+              ¿Por cuáles medios podés pagarnos? ¡POR MUCHOS!
+            </p>
+            <ul>
+              <li class="tarjeta__descripcion">
+                Podés pagarnos como quieras ya que aceptamos tarjetas de débito
+                y crédito a través de Mercado Pago, también aceptamos
+                transferencias bancarias o efectivo al momento de retirar tu
+                producto de Geekamole.
+              </li>
+            </ul>
+          </div>
+          <img
+            class="tarjeta__img"
+            src="https://image.freepik.com/vector-gratis/bolsa-dinero-monedas-billetes-efectivo_24877-63660.jpg"
+            alt="Envios"
+          />
+        </div>
+      </section>
+      <section class="review">
+        <div class="contenedor__review">
+          <img class="foto__review" src="./images/review1.jpg" alt="persona1" />
+          <span class="nombre">
+            <h4>John Doe</h4>
+          </span>
+          <span class="rating">★★★★☆</span>
+          <span class="titulo__review">
+            <p>¡Muy buenos!</p>
+          </span>
+          <span class="contenido__review">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+              eius? Eius, animi quibusdam? Doloremque voluptatem perspiciatis
+              quos, deleniti cumque illo voluptates autem, blanditiis eos et,
+              asperiores veritatis cupiditate ratione unde.
+            </p>
+          </span>
+        </div>
+        <div class="contenedor__review">
+          <img class="foto__review" src="./images/review2.jpg" alt="persona2" />
+          <span class="nombre">
+            <h4>John Doe</h4>
+          </span>
+          <span class="rating">★★★★★</span>
+          <span class="titulo__review">
+            <p>¡Muy buenos!</p>
+          </span>
+          <div class="contenido__review">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, a. Consequuntur, harum magnam voluptatem itaque ipsam
+              veritatis natus dolor velit eius laboriosam soluta omnis non
+              dolorem ipsa mollitia maxime vel!
+            </p>
+          </div>
+        </div>
+        <div class="contenedor__review">
+          <img class="foto__review" src="./images/review3.jpg" alt="persona3" />
+          <span class="nombre">
+            <h4>John Doe</h4>
+          </span>
+          <span class="rating">★★★★☆</span>
+          <span class="titulo__review">
+            <p>¡Muy buenos!</p>
+          </span>
+          <div class="contenido__review">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores ullam aut labore rem exercitationem earum ad quos at
+              laboriosam voluptatibus, debitis illo natus odio quisquam adipisci
+              commodi sed blanditiis atque?
+            </p>
+          </div>
+        </div>
+        <div class="contenedor__review">
+          <img class="foto__review" src="./images/review4.jpg" alt="persona4" />
+          <span class="nombre">
+            <h4>John Doe</h4>
+          </span>
+          <span class="rating">★★★★☆</span>
+          <span class="titulo__review">
+            <p>¡Muy buenos!</p>
+          </span>
+          <div class="contenido__review">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores ullam aut labore rem exercitationem earum ad quos at
+              laboriosam voluptatibus, debitis illo natus odio quisquam adipisci
+              commodi sed blanditiis atque?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <section class="ft-main">
+          <div class="ft-main-item">
+            <h2 class="ft-title">Links</h2>
+            <ul>
+              <li><a href="./productos.html">Productos</a></li>
+              <li><a href="./quienes.html">Quiénes Somos</a></li>
+              <li><a href="./faq.html">Preguntas Frecuentes</a></li>
+              <br />
+              <li><a href="#">¡Volver al cielo!</a></li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">¡De nosotros para ti!</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://open.spotify.com/playlist/1PKYiQbbX3Fak5c9SiYpFQ?si=d98823501f704be8"
+                  >Playlist Lo-Fi para que escuches</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/gatitos.para.todo/?hl=es-la"
+                  >¡Gatitos para Todos!</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/perritos_hc/?hl=es-la"
+                  >Perritos haciendo cosas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/classical_art_memes_official/?hl=es-la"
+                  >Memes de arte clásico</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Formas de pago</h2>
+            <ul>
+              <li>
+                <img src="./images/mercadopago.png" alt="Mercado Pago" /><img
+                  src="./images/depo.png"
+                  alt="Depósito Bancario"
+                />
+              </li>
+              <li>
+                <img src="./images/visa.png" alt="Visa" /><img
+                  src="./images/master.png"
+                  alt="MasterCard"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">¡No te pierdas nuestras actualizaciones!</h2>
+            <p>Suscribite a nuestro newsletter para no perderte nada.</p>
+            <form>
+              <input type="email" name="email" placeholder="mail@ejemplo.com" />
+              <input type="submit" value="Subscribe" />
+            </form>
+          </div>
+        </section>
+        <section class="ft-social">
+          <ul class="ft-social-list">
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/outline_facebook_black_36dp.png"
+                  alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/instagram.png" alt="Instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/outline_mail_black_36dp.png" alt="Mail"
+              /></a>
+            </li>
+          </ul>
+        </section>
+        <section class="ft-legal">
+          <ul class="ft-legal-list">
+            <li>Bueno, parece que llegaste al final.</li>
+            <li>&copy; 2021 Todos los derechos e izquierdos reservados.</li>
+          </ul>
+        </section>
+      </footer>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>

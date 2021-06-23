@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Dosis";
+}
+
+p {
+  font-family: "Dosis";
+}
+
+header {
+  background-color: rgb(153, 127, 70);
+  font-family: "Dosis";
+  background-image: url(http://static.colourlovers.com/images/patterns/1227/1227603.png?1294269381);
+}
+
+.logo img {
+  width: 300px;
+}
+
+.animate__animated.animate__fadeIn {
+  animation-duration: 0.6s;
+}
+
+header h1,
+header h2 {
+  text-align: center;
+}
+
+header h2 {
+  color: seagreen;
+}
+
+#menu {
+  background-color: rgba(220, 255, 139, 0.7);
+  font-family: "Dosis", cursive;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#menu li {
+  transition: 0.25s;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  display: table-cell;
+  cursor: pointer;
+}
+
+#menu li:hover {
+  background: rgb(208, 255, 99);
+}
+
+#menu ul {
+  display: none;
+  position: absolute;
+  background: rgb(220, 255, 139);
+  color: #2c2c2c;
+  box-shadow: 2px 2px 2px black;
+}
+.menuButton img {
+  width: 10%;
+  display: flex;
+  position: relative;
+  left: 335px;
+}
