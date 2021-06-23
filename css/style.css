@@ -472,7 +472,12 @@ input[type="submit"] {
             align-items: center;
   }
   .logo {
-    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .carousel {
     width: 70%;
@@ -542,7 +547,12 @@ input[type="submit"] {
             align-items: center;
   }
   .logo {
-    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .carousel {
     width: 85%;
